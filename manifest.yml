@@ -1,0 +1,9 @@
+---
+applications:
+- path: .
+  name: sentiment-analyzer2 #change to be unique in IBM Cloud
+  buildpack: nodejs
+  memory: 128M
+  instances: 1
+  random-route: True
+
